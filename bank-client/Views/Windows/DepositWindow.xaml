@@ -1,0 +1,12 @@
+﻿<Window x:Class="bank_api.Views.Windows.DepositWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Deposit Money" Height="250" Width="400" >
+    <StackPanel Margin="20">
+        <TextBlock Text="Deposit Money" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Amount" Margin="10,0,0,0"/>
+        <TextBox x:Name="AmountTextBox" Width="200" HorizontalAlignment="Center"/>
+        <Button Content="Deposit" Margin="10,20,0,0" Click="DepositButton_Click" Width="100" HorizontalAlignment="Center"  BorderThickness="1,1,1,1"/>
+    </StackPanel>
+</Window>

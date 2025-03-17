@@ -1,0 +1,18 @@
+﻿<Window x:Class="bank_api.Views.Windows.WithdrawView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Withdraw" Height="220" Width="300">
+    <StackPanel Margin="20">
+        <TextBlock Text="Withdraw Money" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Amount" Margin="10,0,0,0"/>
+        <TextBox x:Name="AmountTextBox" Width="200" HorizontalAlignment="Center"/>
+
+        <!-- Limieten Informatie -->
+        <StackPanel Grid.Row="3" Orientation="Vertical" Height="32" >
+            <TextBlock Text="Per Withdrawal Limit: €500" />
+            <TextBlock x:Name="DailyLimitTextBlock" Text="Daily Withdrawal Limit: €1500" />
+        </StackPanel>
+        <Button Content="Withdraw" Click="WithdrawButton_Click" Width="100"/>
+    </StackPanel>
+</Window>

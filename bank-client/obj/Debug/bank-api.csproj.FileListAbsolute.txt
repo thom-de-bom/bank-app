@@ -1,0 +1,98 @@
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\bank-api.exe.config
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\bank-api.exe
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\bank-api.pdb
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.Http.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.Http.Newtonsoft.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Buffers.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Memory.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Text.Json.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.ValueTuple.dll
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.Http.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Flurl.Http.Newtonsoft.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Buffers.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Memory.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Text.Json.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tvmst\source\repos\bank-api\bin\Debug\System.ValueTuple.xml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.csproj.AssemblyReference.cache
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\DepositWindow.baml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\LoginView.baml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\DashboardWindow.baml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\MainWindow.baml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\WithdrawView.baml
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\DepositWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\LoginView.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\DashboardWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\MainWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\Views\Windows\WithdrawView.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\App.g.cs
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api_MarkupCompile.cache
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.g.resources
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank_api.Properties.Resources.resources
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.csproj.GenerateResource.cache
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.csproj.CoreCompileInputs.cache
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.csproj.Up2Date
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.exe
+C:\Users\tvmst\source\repos\bank-api\obj\Debug\bank-api.pdb
+C:\bank app\bank-api\bin\Debug\bank-api.exe.config
+C:\bank app\bank-api\bin\Debug\bank-api.exe
+C:\bank app\bank-api\bin\Debug\bank-api.pdb
+C:\bank app\bank-api\bin\Debug\Flurl.dll
+C:\bank app\bank-api\bin\Debug\Flurl.Http.dll
+C:\bank app\bank-api\bin\Debug\Flurl.Http.Newtonsoft.dll
+C:\bank app\bank-api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\bank app\bank-api\bin\Debug\Newtonsoft.Json.dll
+C:\bank app\bank-api\bin\Debug\System.Buffers.dll
+C:\bank app\bank-api\bin\Debug\System.Memory.dll
+C:\bank app\bank-api\bin\Debug\System.Numerics.Vectors.dll
+C:\bank app\bank-api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\bank app\bank-api\bin\Debug\System.Text.Encodings.Web.dll
+C:\bank app\bank-api\bin\Debug\System.Text.Json.dll
+C:\bank app\bank-api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\bank app\bank-api\bin\Debug\System.ValueTuple.dll
+C:\bank app\bank-api\bin\Debug\Flurl.xml
+C:\bank app\bank-api\bin\Debug\Flurl.Http.xml
+C:\bank app\bank-api\bin\Debug\Flurl.Http.Newtonsoft.xml
+C:\bank app\bank-api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\bank app\bank-api\bin\Debug\Newtonsoft.Json.xml
+C:\bank app\bank-api\bin\Debug\System.Buffers.xml
+C:\bank app\bank-api\bin\Debug\System.Memory.xml
+C:\bank app\bank-api\bin\Debug\System.Numerics.Vectors.xml
+C:\bank app\bank-api\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\bank app\bank-api\bin\Debug\System.Text.Encodings.Web.xml
+C:\bank app\bank-api\bin\Debug\System.Text.Json.xml
+C:\bank app\bank-api\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\bank app\bank-api\bin\Debug\System.ValueTuple.xml
+C:\bank app\bank-api\obj\Debug\bank-api.csproj.AssemblyReference.cache
+C:\bank app\bank-api\obj\Debug\Views\Windows\DepositWindow.baml
+C:\bank app\bank-api\obj\Debug\Views\Windows\LoginView.baml
+C:\bank app\bank-api\obj\Debug\Views\Windows\DashboardWindow.baml
+C:\bank app\bank-api\obj\Debug\MainWindow.baml
+C:\bank app\bank-api\obj\Debug\Views\Windows\WithdrawView.baml
+C:\bank app\bank-api\obj\Debug\Views\Windows\DepositWindow.g.cs
+C:\bank app\bank-api\obj\Debug\Views\Windows\LoginView.g.cs
+C:\bank app\bank-api\obj\Debug\Views\Windows\DashboardWindow.g.cs
+C:\bank app\bank-api\obj\Debug\MainWindow.g.cs
+C:\bank app\bank-api\obj\Debug\Views\Windows\WithdrawView.g.cs
+C:\bank app\bank-api\obj\Debug\App.g.cs
+C:\bank app\bank-api\obj\Debug\bank-api_MarkupCompile.cache
+C:\bank app\bank-api\obj\Debug\bank-api.g.resources
+C:\bank app\bank-api\obj\Debug\bank_api.Properties.Resources.resources
+C:\bank app\bank-api\obj\Debug\bank-api.csproj.GenerateResource.cache
+C:\bank app\bank-api\obj\Debug\bank-api.csproj.CoreCompileInputs.cache
+C:\bank app\bank-api\obj\Debug\bank-api.csproj.Up2Date
+C:\bank app\bank-api\obj\Debug\bank-api.exe
+C:\bank app\bank-api\obj\Debug\bank-api.pdb

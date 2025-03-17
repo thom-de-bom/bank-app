@@ -1,0 +1,160 @@
+﻿<Window x:Class="BankApiAdmin.Views.AdminDashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Dashboard" Height="700" Width="900">
+    <Grid Margin="10">
+        <TabControl x:Name="MainTabControl">
+            <!-- Tab voor Gebruikers en Transacties -->
+            <TabItem Header="Overview">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="119*"/>
+                        <ColumnDefinition Width="755*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Admin Dashboard" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" Margin="216,0,0,20" Grid.Column="1"/>
+
+                    <GroupBox Header="Users" Grid.Row="1" Margin="0,0,0,10" Grid.ColumnSpan="2">
+                        <DataGrid Name="UsersDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Account Number" Binding="{Binding AccountNumber}" Width="*"/>
+                                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="*"/>
+                                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="*"/>
+                                <DataGridTextColumn Header="Balance (€)" Binding="{Binding Balance}" Width="*"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </GroupBox>
+
+                    <GroupBox Header="Recent Transactions" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,292,0,0" Grid.RowSpan="2">
+                        <DataGrid Name="TransactionsDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="*"/>
+                                <DataGridTextColumn Header="Account Number" Binding="{Binding AccountNumber}" Width="*"/>
+                                <DataGridTextColumn Header="Amount (€)" Binding="{Binding Amount}" Width="*"/>
+                                <DataGridTextColumn Header="Time" Binding="{Binding Time}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab voor Beheren van Rekeningen -->
+            <TabItem Header="Manage Accounts" x:Name="ManageAccountsTab">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Formulier voor Toevoegen/Wijzigen -->
+                    <GroupBox Header="Add/Edit Account" Grid.Row="0" Margin="0,0,0,10">
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <!-- Nieuwe rij voor PIN -->
+                            </Grid.RowDefinitions>
+
+                            <!-- Account Number -->
+                            <TextBlock Text="Account Number:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <TextBox Name="AddEditAccountNumberTextBox" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+                            <!-- First Name -->
+                            <TextBlock Text="First Name:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <TextBox Name="AddEditFirstNameTextBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+                            <!-- Last Name -->
+                            <TextBlock Text="Last Name:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <TextBox Name="AddEditLastNameTextBox" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                            <!-- Balance -->
+                            <TextBlock Text="Balance (€):" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <TextBox Name="AddEditBalanceTextBox" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+                            <!-- Status -->
+                            <TextBlock Text="Status:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <ComboBox Name="AddEditStatusComboBox" Grid.Row="4" Grid.Column="1" Margin="5">
+                                <ComboBoxItem Content="active" IsSelected="True"/>
+                                <ComboBoxItem Content="blocked"/>
+                            </ComboBox>
+
+                            <!-- PIN Code -->
+                            <TextBlock Text="PIN Code:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                            <PasswordBox Name="AddEditPinCodePasswordBox" Grid.Row="5" Grid.Column="1" Margin="5"/>
+
+                            <!-- Knoppen -->
+                            <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Left" Margin="35,5,0,5">
+                                <Button x:Name="AddAccountButton" Content="Add Account" Click="AddAccountButton_Click" Width="100" Margin="5"/>
+                                <Button x:Name="EditAccountButton" Content="Edit Account" Click="EditAccountButton_Click" Width="100" Margin="5"/>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- DataGrid voor Rekeningen -->
+                    <GroupBox Header="Accounts List" Grid.Row="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Zoekfunctionaliteit met labels -->
+                            <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
+                                <StackPanel Orientation="Vertical" Margin="5">
+                                    <Label Content="Accountnummer:" />
+                                    <TextBox Name="SearchAccountNumberTextBox" Width="150" Margin="5"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Margin="5">
+                                    <Label Content="Achternaam:" />
+                                    <TextBox Name="SearchLastNameTextBox" Width="150" Margin="5"/>
+                                </StackPanel>
+
+                                <!-- Leeg label voor uitlijning -->
+                                <Button x:Name="SearchAccountsButton" Content="Search" Click="SearchAccountsButton_Click" Width="100" Margin="5" Height="27"/>
+
+
+                                <!-- Leeg label voor uitlijning -->
+                                <Button x:Name="ClearSearchButton" Content="Clear" Click="ClearSearchButton_Click" Width="100" Margin="5" Height="27"/>
+
+                                <!-- Leeg label voor uitlijning -->
+                                <Button x:Name="BlockAccountButton" Content="Block Account" Click="BlockAccountButton_Click" Width="120" Margin="5" Height="27"/>
+                                <!-- Leeg label voor uitlijning -->
+                                <Button x:Name="DeleteAccountButton" Content="Delete Account" Click="DeleteAccountButton_Click" Width="120" Margin="5" Height="27"/>
+                            </StackPanel>
+
+                            <!-- DataGrid voor Accounts -->
+                            <DataGrid Name="AccountsDataGrid" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" Margin="5" SelectionMode="Single" MouseDoubleClick="AccountsDataGrid_MouseDoubleClick">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Account Number" Binding="{Binding AccountNumber}" Width="*"/>
+                                    <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="*"/>
+                                    <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="*"/>
+                                    <DataGridTextColumn Header="Balance (€)" Binding="{Binding Balance}" Width="*"/>
+                                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <!-- Knoppen voor Verwijderen/Blokkeren -->
+
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

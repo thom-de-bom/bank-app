@@ -1,0 +1,96 @@
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\bank-api-admin.exe.config
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\bank-api-admin.exe
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\bank-api-admin.pdb
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\ControlzEx.dll
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\MahApps.Metro.dll
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\ControlzEx.pdb
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\ControlzEx.xml
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\MahApps.Metro.pdb
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\MahApps.Metro.xml
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tvmst\source\repos\bank-api-admin\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.csproj.AssemblyReference.cache
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\views\AdminDashboardWindow.baml
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\views\AdminLoginWindow.baml
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\views\AdminDashboardWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\views\AdminLoginWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\MainWindow.g.cs
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\App.g.cs
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin_MarkupCompile.cache
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin_MarkupCompile.lref
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\MainWindow.baml
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.g.resources
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank_api_admin.Properties.Resources.resources
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.csproj.GenerateResource.cache
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.csproj.CoreCompileInputs.cache
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api.F4306780.Up2Date
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.exe
+C:\Users\tvmst\source\repos\bank-api-admin\obj\Debug\bank-api-admin.pdb
+C:\bank app\bank-api-admin\bin\Debug\bank-api-admin.exe.config
+C:\bank app\bank-api-admin\bin\Debug\bank-api-admin.exe
+C:\bank app\bank-api-admin\bin\Debug\bank-api-admin.pdb
+C:\bank app\bank-api-admin\bin\Debug\ControlzEx.dll
+C:\bank app\bank-api-admin\bin\Debug\MahApps.Metro.dll
+C:\bank app\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\bank app\bank-api-admin\bin\Debug\Newtonsoft.Json.dll
+C:\bank app\bank-api-admin\bin\Debug\ControlzEx.pdb
+C:\bank app\bank-api-admin\bin\Debug\ControlzEx.xml
+C:\bank app\bank-api-admin\bin\Debug\MahApps.Metro.pdb
+C:\bank app\bank-api-admin\bin\Debug\MahApps.Metro.xml
+C:\bank app\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\bank app\bank-api-admin\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\bank app\bank-api-admin\bin\Debug\Newtonsoft.Json.xml
+C:\bank app\bank-api-admin\bin\Debug\de\MahApps.Metro.resources.dll
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.csproj.AssemblyReference.cache
+C:\bank app\bank-api-admin\obj\Debug\views\AdminDashboardWindow.baml
+C:\bank app\bank-api-admin\obj\Debug\views\AdminLoginWindow.baml
+C:\bank app\bank-api-admin\obj\Debug\views\AdminDashboardWindow.g.cs
+C:\bank app\bank-api-admin\obj\Debug\views\AdminLoginWindow.g.cs
+C:\bank app\bank-api-admin\obj\Debug\MainWindow.g.cs
+C:\bank app\bank-api-admin\obj\Debug\App.g.cs
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin_MarkupCompile.cache
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin_MarkupCompile.lref
+C:\bank app\bank-api-admin\obj\Debug\MainWindow.baml
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.g.resources
+C:\bank app\bank-api-admin\obj\Debug\bank_api_admin.Properties.Resources.resources
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.csproj.GenerateResource.cache
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.csproj.CoreCompileInputs.cache
+C:\bank app\bank-api-admin\obj\Debug\bank-api.F4306780.Up2Date
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.exe
+C:\bank app\bank-api-admin\obj\Debug\bank-api-admin.pdb
+C:\bank app\bank-admin\bin\Debug\bank-api-admin.exe.config
+C:\bank app\bank-admin\bin\Debug\bank-api-admin.exe
+C:\bank app\bank-admin\bin\Debug\bank-api-admin.pdb
+C:\bank app\bank-admin\bin\Debug\ControlzEx.dll
+C:\bank app\bank-admin\bin\Debug\MahApps.Metro.dll
+C:\bank app\bank-admin\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\bank app\bank-admin\bin\Debug\Newtonsoft.Json.dll
+C:\bank app\bank-admin\bin\Debug\ControlzEx.pdb
+C:\bank app\bank-admin\bin\Debug\ControlzEx.xml
+C:\bank app\bank-admin\bin\Debug\MahApps.Metro.pdb
+C:\bank app\bank-admin\bin\Debug\MahApps.Metro.xml
+C:\bank app\bank-admin\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\bank app\bank-admin\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\bank app\bank-admin\bin\Debug\Newtonsoft.Json.xml
+C:\bank app\bank-admin\bin\Debug\de\MahApps.Metro.resources.dll
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.csproj.AssemblyReference.cache
+C:\bank app\bank-admin\obj\Debug\views\AdminDashboardWindow.baml
+C:\bank app\bank-admin\obj\Debug\views\AdminLoginWindow.baml
+C:\bank app\bank-admin\obj\Debug\views\AdminDashboardWindow.g.cs
+C:\bank app\bank-admin\obj\Debug\views\AdminLoginWindow.g.cs
+C:\bank app\bank-admin\obj\Debug\MainWindow.g.cs
+C:\bank app\bank-admin\obj\Debug\App.g.cs
+C:\bank app\bank-admin\obj\Debug\bank-api-admin_MarkupCompile.cache
+C:\bank app\bank-admin\obj\Debug\bank-api-admin_MarkupCompile.lref
+C:\bank app\bank-admin\obj\Debug\MainWindow.baml
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.g.resources
+C:\bank app\bank-admin\obj\Debug\bank_api_admin.Properties.Resources.resources
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.csproj.GenerateResource.cache
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.csproj.CoreCompileInputs.cache
+C:\bank app\bank-admin\obj\Debug\bank-api.F4306780.Up2Date
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.exe
+C:\bank app\bank-admin\obj\Debug\bank-api-admin.pdb

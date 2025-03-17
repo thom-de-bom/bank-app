@@ -168,3 +168,11 @@ Some ideas for extending this project:
 - Create a mobile application version
 - Add account statement generation as PDF
 - Implement multi-factor authentication
+
+## 📚 Resources Used
+
+- [WPF Documentation](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
+- [PHP Manual](https://www.php.net/manual/en/)
+- [MVVM Pattern](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern)
+- [Flurl HTTP Client](https://flurl.dev/)
+- [MahApps.Metro UI Framework](https://mahapps.com/)

@@ -1,0 +1,14 @@
+﻿<Window x:Class="bank_api.Views.Windows.LoginView" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="200" Width="300">
+    <StackPanel Margin="20">
+        <TextBlock Text="Account Number" />
+        <TextBox x:Name="AccountNumberTextBox" />
+
+        <TextBlock Text="PIN Code" Margin="0,10,0,0" />
+        <PasswordBox x:Name="PinCodePasswordBox" />
+
+        <Button Content="Login" Margin="0,10,0,0" Click="LoginButton_Click" />
+    </StackPanel>
+</Window>
